@@ -1,0 +1,10 @@
+C:\Users\asus\Desktop\c#\hafta12ornek3\hafta12ornek3\obj\Debug\hafta12ornek3.csproj.AssemblyReference.cache
+C:\Users\asus\Desktop\c#\hafta12ornek3\hafta12ornek3\obj\Debug\hafta12ornek3.Form1.resources
+C:\Users\asus\Desktop\c#\hafta12ornek3\hafta12ornek3\obj\Debug\hafta12ornek3.Properties.Resources.resources
+C:\Users\asus\Desktop\c#\hafta12ornek3\hafta12ornek3\obj\Debug\hafta12ornek3.csproj.GenerateResource.cache
+C:\Users\asus\Desktop\c#\hafta12ornek3\hafta12ornek3\obj\Debug\hafta12ornek3.csproj.CoreCompileInputs.cache
+C:\Users\asus\Desktop\c#\hafta12ornek3\hafta12ornek3\bin\Debug\hafta12ornek3.exe.config
+C:\Users\asus\Desktop\c#\hafta12ornek3\hafta12ornek3\bin\Debug\hafta12ornek3.exe
+C:\Users\asus\Desktop\c#\hafta12ornek3\hafta12ornek3\bin\Debug\hafta12ornek3.pdb
+C:\Users\asus\Desktop\c#\hafta12ornek3\hafta12ornek3\obj\Debug\hafta12ornek3.exe
+C:\Users\asus\Desktop\c#\hafta12ornek3\hafta12ornek3\obj\Debug\hafta12ornek3.pdb
