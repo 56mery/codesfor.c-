@@ -29,14 +29,14 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.txt_trh = new System.Windows.Forms.TextBox();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.txt_trh = new System.Windows.Forms.TextBox();
-            this.txt_grd = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
+            this.txt_grd = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -53,31 +53,15 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "groupBox1";
             // 
-            // groupBox2
+            // label1
             // 
-            this.groupBox2.Controls.Add(this.label2);
-            this.groupBox2.Controls.Add(this.button2);
-            this.groupBox2.Controls.Add(this.txt_grd);
-            this.groupBox2.Location = new System.Drawing.Point(191, 240);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(390, 166);
-            this.groupBox2.TabIndex = 1;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "groupBox2";
-            // 
-            // txt_trh
-            // 
-            this.txt_trh.Location = new System.Drawing.Point(161, 57);
-            this.txt_trh.Name = "txt_trh";
-            this.txt_trh.Size = new System.Drawing.Size(166, 20);
-            this.txt_trh.TabIndex = 0;
-            // 
-            // txt_grd
-            // 
-            this.txt_grd.Location = new System.Drawing.Point(161, 77);
-            this.txt_grd.Name = "txt_grd";
-            this.txt_grd.Size = new System.Drawing.Size(166, 20);
-            this.txt_grd.TabIndex = 1;
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label1.Location = new System.Drawing.Point(28, 58);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(110, 16);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Threshold value :";
             // 
             // button1
             // 
@@ -90,6 +74,35 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // txt_trh
+            // 
+            this.txt_trh.Location = new System.Drawing.Point(161, 57);
+            this.txt_trh.Name = "txt_trh";
+            this.txt_trh.Size = new System.Drawing.Size(166, 20);
+            this.txt_trh.TabIndex = 0;
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.label2);
+            this.groupBox2.Controls.Add(this.button2);
+            this.groupBox2.Controls.Add(this.txt_grd);
+            this.groupBox2.Location = new System.Drawing.Point(191, 240);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(390, 166);
+            this.groupBox2.TabIndex = 1;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "groupBox2";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label2.Location = new System.Drawing.Point(28, 78);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(87, 16);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "Grade value :";
+            // 
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
@@ -101,25 +114,12 @@
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // label1
+            // txt_grd
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.Location = new System.Drawing.Point(28, 58);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(110, 16);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Threshold value :";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label2.Location = new System.Drawing.Point(28, 78);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(87, 16);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Grade value :";
+            this.txt_grd.Location = new System.Drawing.Point(161, 77);
+            this.txt_grd.Name = "txt_grd";
+            this.txt_grd.Size = new System.Drawing.Size(166, 20);
+            this.txt_grd.TabIndex = 1;
             // 
             // Form1
             // 
